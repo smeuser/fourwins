@@ -68,6 +68,12 @@ Besides this, the algorithm works quite fine and makes it hard to beat for a hum
 
 The base logic of the rating system was the simple idea. But to have the final rating make decisions which really result in good game play, did show up after the weighting of the different kind of options did get applied.
 
-Compared to real artifical intelligences which flood the internet nowadays, it has a few similarities.
-Current ai's get trained by themself through an algorithm in a neural network. The decision-making gets improved by the weighting for each neuron, which gets transported through all neuron layers through back propagation.
-The weightng process was only done once in this algorithm and now is static, which is sufficient for a game like this with finite possibilities.
+Compared to real artificial intelligences which flood the internet nowadays, it has a few similarities.
+Current AI's get trained by themselves through an algorithm in a neural network. The decision-making gets improved by the weighting for each neuron, which gets transported through all neuron layers through back propagation.
+The weighting process was only done once in this algorithm and now is static, which is sufficient for a game like this with finite possibilities.
+
+## History
+
+This project was created on 2005 with java 1.2. The intention was to just learn java and object-oriented programming through my qualification.
+There are no modern software development concepts applied which are currently must haves like design patterns, SOLID or dependency injection.
+The only concept I did try to follow was the MVC pattern by my personal understanding. To this time just learning java was the key, and I did try to do more than my qualification was about to teach me to this point.
