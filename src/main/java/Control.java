@@ -24,8 +24,6 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.border.EtchedBorder;
-import com.sun.java.swing.plaf.motif.*;
-import com.sun.java.swing.plaf.windows.*;
 
 public class Control implements ActionListener {
 
@@ -122,10 +120,8 @@ public class Control implements ActionListener {
 			}
 			if(LAFexists){
 				try{
-					UIManager.setLookAndFeel(
-							new MotifLookAndFeel());
 					SwingUtilities.updateComponentTreeUI(view.getFrame());
-					System.out.println("Look and Fell setting succesful -- "+UIManager.getCrossPlatformLookAndFeelClassName().toString());
+					System.out.println("Look and Feel setting succesfull -- "+UIManager.getCrossPlatformLookAndFeelClassName().toString());
 				} catch(Exception exc){
 					System.err.println("Error -- Look and Fell setting failed");
 					exc.printStackTrace();
@@ -141,8 +137,6 @@ public class Control implements ActionListener {
 			}
 			if(LAFexists){
 				try{
-					UIManager.setLookAndFeel(
-							new WindowsLookAndFeel());
 					SwingUtilities.updateComponentTreeUI(view.getFrame());
 					System.out.println("Look and Fell setting succesful");
 				} catch(Exception exc){
@@ -160,8 +154,6 @@ public class Control implements ActionListener {
 			}
 			if(LAFexists){
 				try{
-					UIManager.setLookAndFeel(
-							new WindowsClassicLookAndFeel());
 					SwingUtilities.updateComponentTreeUI(view.getFrame());
 					System.out.println("Look and Fell setting succesful");
 				} catch(Exception exc){
