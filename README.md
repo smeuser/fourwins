@@ -2,7 +2,7 @@
 
 ## why?
 
-This is a simple four wins game which i made during my qualification to become a computer scientist (2004 - 2007).
+This is a simple four wins game which i made during my qualification to become a computer scientist (2004 - 2006).
 
 It was a project in our java class, and we could figure out an idea on our own. This project was created with Java 1.2 and is very old.
 It was also my first java application which original did run as a java applet in a browser. I tried to interpret the MVC concept for the very first time.
